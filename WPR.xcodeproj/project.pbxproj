@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43017DD31E57DB7D0082CC66 /* WPRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43017DD21E57DB7D0082CC66 /* WPRNavigationController.swift */; };
+		431941511E55201C005DD96C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4319414F1E55201C005DD96C /* pause.png */; };
+		431941521E55201C005DD96C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 431941501E55201C005DD96C /* play.png */; };
 		43DF26741E54DA9300815B5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF26731E54DA9300815B5C /* AppDelegate.swift */; };
 		43DF26761E54DA9300815B5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF26751E54DA9300815B5C /* ViewController.swift */; };
 		43DF26791E54DA9300815B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26771E54DA9300815B5C /* Main.storyboard */; };
 		43DF267B1E54DA9300815B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DF267A1E54DA9300815B5C /* Assets.xcassets */; };
 		43DF267E1E54DA9300815B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DF267C1E54DA9300815B5C /* LaunchScreen.storyboard */; };
+		43DF268C1E54E0DB00815B5C /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26851E54E0DB00815B5C /* Quicksand_Dash.otf */; };
+		43DF268D1E54E0DB00815B5C /* Quicksand-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26861E54E0DB00815B5C /* Quicksand-Bold.otf */; };
+		43DF268E1E54E0DB00815B5C /* Quicksand-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26871E54E0DB00815B5C /* Quicksand-BoldItalic.otf */; };
+		43DF268F1E54E0DB00815B5C /* Quicksand-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26881E54E0DB00815B5C /* Quicksand-Italic.otf */; };
+		43DF26901E54E0DB00815B5C /* Quicksand-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF26891E54E0DB00815B5C /* Quicksand-Light.otf */; };
+		43DF26911E54E0DB00815B5C /* Quicksand-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF268A1E54E0DB00815B5C /* Quicksand-LightItalic.otf */; };
+		43DF26921E54E0DB00815B5C /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43DF268B1E54E0DB00815B5C /* Quicksand-Regular.otf */; };
+		43FC49791E57C40100854E70 /* WPRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FC49781E57C40100854E70 /* WPRNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43017DD21E57DB7D0082CC66 /* WPRNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPRNavigationController.swift; sourceTree = "<group>"; };
+		4319414F1E55201C005DD96C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		431941501E55201C005DD96C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		43DF26701E54DA9300815B5C /* WPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DF26731E54DA9300815B5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43DF26751E54DA9300815B5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,14 @@
 		43DF267A1E54DA9300815B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DF267D1E54DA9300815B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43DF267F1E54DA9300815B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DF26851E54E0DB00815B5C /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		43DF26861E54E0DB00815B5C /* Quicksand-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.otf"; sourceTree = "<group>"; };
+		43DF26871E54E0DB00815B5C /* Quicksand-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-BoldItalic.otf"; sourceTree = "<group>"; };
+		43DF26881E54E0DB00815B5C /* Quicksand-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Italic.otf"; sourceTree = "<group>"; };
+		43DF26891E54E0DB00815B5C /* Quicksand-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.otf"; sourceTree = "<group>"; };
+		43DF268A1E54E0DB00815B5C /* Quicksand-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-LightItalic.otf"; sourceTree = "<group>"; };
+		43DF268B1E54E0DB00815B5C /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		43FC49781E57C40100854E70 /* WPRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPRNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +78,31 @@
 			children = (
 				43DF26731E54DA9300815B5C /* AppDelegate.swift */,
 				43DF26751E54DA9300815B5C /* ViewController.swift */,
+				43FC49781E57C40100854E70 /* WPRNavigationBar.swift */,
+				43017DD21E57DB7D0082CC66 /* WPRNavigationController.swift */,
 				43DF26771E54DA9300815B5C /* Main.storyboard */,
 				43DF267A1E54DA9300815B5C /* Assets.xcassets */,
 				43DF267C1E54DA9300815B5C /* LaunchScreen.storyboard */,
 				43DF267F1E54DA9300815B5C /* Info.plist */,
+				4319414F1E55201C005DD96C /* pause.png */,
+				431941501E55201C005DD96C /* play.png */,
+				43DF26931E54E0DF00815B5C /* Fonts */,
 			);
 			path = WPR;
+			sourceTree = "<group>";
+		};
+		43DF26931E54E0DF00815B5C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43DF26851E54E0DB00815B5C /* Quicksand_Dash.otf */,
+				43DF26861E54E0DB00815B5C /* Quicksand-Bold.otf */,
+				43DF26871E54E0DB00815B5C /* Quicksand-BoldItalic.otf */,
+				43DF26881E54E0DB00815B5C /* Quicksand-Italic.otf */,
+				43DF26891E54E0DB00815B5C /* Quicksand-Light.otf */,
+				43DF268A1E54E0DB00815B5C /* Quicksand-LightItalic.otf */,
+				43DF268B1E54E0DB00815B5C /* Quicksand-Regular.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +138,13 @@
 					43DF266F1E54DA9300815B5C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V2PB75MQCC;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,9 +171,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431941511E55201C005DD96C /* pause.png in Resources */,
 				43DF267E1E54DA9300815B5C /* LaunchScreen.storyboard in Resources */,
 				43DF267B1E54DA9300815B5C /* Assets.xcassets in Resources */,
+				43DF26901E54E0DB00815B5C /* Quicksand-Light.otf in Resources */,
+				43DF268E1E54E0DB00815B5C /* Quicksand-BoldItalic.otf in Resources */,
+				43DF26921E54E0DB00815B5C /* Quicksand-Regular.otf in Resources */,
+				431941521E55201C005DD96C /* play.png in Resources */,
 				43DF26791E54DA9300815B5C /* Main.storyboard in Resources */,
+				43DF268C1E54E0DB00815B5C /* Quicksand_Dash.otf in Resources */,
+				43DF268D1E54E0DB00815B5C /* Quicksand-Bold.otf in Resources */,
+				43DF26911E54E0DB00815B5C /* Quicksand-LightItalic.otf in Resources */,
+				43DF268F1E54E0DB00815B5C /* Quicksand-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43DF26761E54DA9300815B5C /* ViewController.swift in Sources */,
+				43017DD31E57DB7D0082CC66 /* WPRNavigationController.swift in Sources */,
+				43FC49791E57C40100854E70 /* WPRNavigationBar.swift in Sources */,
 				43DF26741E54DA9300815B5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +358,7 @@
 				43DF26841E54DA9300815B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
