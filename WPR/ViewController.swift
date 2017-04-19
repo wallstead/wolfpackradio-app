@@ -14,7 +14,6 @@ import MediaPlayer
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var volume: UISlider!
     @IBOutlet weak var playButton: UIButton!
     
     var player = AVPlayer()
@@ -23,12 +22,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = "http://38.135.36.124:7209/stream"
+//        let url = "http://38.135.36.124:7209/stream"
+        let url = "http://178.33.104.250:80/stream2"
         let playerItem = AVPlayerItem(url: URL(string: url)!)
         player = AVPlayer(playerItem:playerItem)
         player.rate = 1.0;
         player.play()
-        player.volume = volume.value
+        
         
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
@@ -56,9 +56,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func volumeChange(_ sender: UISlider) {
-        player.volume = volume.value
-    }
+    
     
     @IBAction func playToggled(_ sender: UIButton) {
         if ((player.rate != 0) && (player.error == nil)) { // player is playing
